@@ -70,6 +70,13 @@ export function Navbar() {
               Alimentos Disponíveis
             </Link>
             <Link
+              href="/ranking"
+              className="text-gray-600 hover:text-green-600 transition-colors py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Ranking
+            </Link>
+            <Link
               href="/como-receber"
               className="text-gray-600 hover:text-green-600 transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
